@@ -271,8 +271,8 @@ body {
     text-decoration: none;
 }
 
-.reservar-button a:hover {
-    color: #384001;
+.reservar-button:hover {
+    background-color: #384001;
 }
 
 /*main suscripcion*/
@@ -363,8 +363,8 @@ body {
     text-decoration: none;
 }
 
-.verCondiciones-button a:hover {
-    color: #384001;
+.verCondiciones-button:hover {
+    background-color: #384001;
 }
 
 /*barra final*/
