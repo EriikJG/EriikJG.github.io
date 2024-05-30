@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+.barra {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A3A656
+}
+
+.barra-rigth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.login a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #FFFF00;
+}
+
+
+.login .user {
+    padding: 0px 7px;
+}
+
+.pais {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pais p {
+    font-family: 'Inter', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+
+}
+
+.pais p {
+    padding: 0px 7px;
+}
+
+.pais .bandera {
+    padding: 0px 7px;
+}
+
+.pais .arrow {
+    padding: 0px 7px;
+}
+
+.barra nav ul {
+    padding-left: 70px;
+    font-family: 'Inter';
+    list-style-type: none;
+    text-align: center;
+    margin: 0%;
+}
+
+.barra nav ul li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-right: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.barra nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.barra nav ul li a:hover {
+    color: #FFFF00
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+}
+
+/*FALTA PONER LOS PADDINGS EN EL NAV*/
+/*AQUI COMIENZA MAIN*/
+
+.principal-space {
+    height: 700px;
+    background-position: center;
+    background-image: url("images/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.principal-space .texto {
+    padding: 200px 100px;
+    width: auto;
+    align-items: center;
+}
+
+.texto h1 {
+    font-family: 'Romanesco', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    margin: 0px;
+}
+
+.texto h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+
+
+}
+
+
+/*ver tamaño de letray eso*/
+
+/* Aqui comienza barra codigo*/
+.reserv-cita {
+    background-color: #F2F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.reserv-cita-cuadros {
+    text-align: center;
+}
+
+
+.cuadro-cita {
+    padding: 0%;
+    margin: 10px;
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+}
+
+.cuadro-codigo {
+    padding: 15px;
+    margin: 10px;
+    height: 60px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+}
+
+.cuadro-codigo::placeholder {
+    color: #9E9A9A;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.reserv-cita label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/* Funcion main */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+
+.card {
+    margin: 0 67px 0 67px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+    width: 350px;
+}
+
+.h1-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+    width: auto;
+    height: 70px;
+    background-color: #A3A656;
+}
+
+.h1-card h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 0%;
+}
+
+.card .imagen-spa {
+    width: 100%;
+    height: 270px;
+}
+
+.card .imagen-spa img {
+    width: 100%;
+    height: 100%;
+}
+
+.card p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0%;
+    padding: 10px 10px;
+}
+
+
+.card-down {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.card-down p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0px 10px;
+}
+
+.reservar-button {
+    width: 160px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.reservar-button a {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.reservar-button a:hover {
+    color: #384001;
+}
+
+/*main suscripcion*/
+/* Funcion main */
+
+.suscripcion-main {
+    height: 770px;
+    text-align: center;
+    background-color: #F2F6F6;
+}
+
+.title-suscription {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 30px;
+    margin: 0%;
+}
+
+.suscripcion-container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.card-suscripcion {
+    text-align: center;
+    height: 500px;
+}
+
+.card-suscripcion h1 {
+    margin: 5px 0 30px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.imagen-suscripcion {
+    padding: 1.4px;
+    background-color: #FFFFFF;
+    border: 10px solid #384001;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-suscripcion img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card-suscripcion ul li {
+    padding-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #0a0a0a;
+    text-decoration: none;
+}
+
+.card-suscripcion ul {
+    padding: 0 0 0 70px;
+    margin: 30px 0 0 0;
+}
+
+.verCondiciones-button {
+    width: 280px;
+    background-color: #A3A656;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.verCondiciones-button a {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.verCondiciones-button a:hover {
+    color: #384001;
+}
+
+/*barra final*/
+
+
+.barra-final {
+    height: 97px;
+    color: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384001
+}
+
+.barra-final-rigth {
+    padding-right: 50px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-final-rigth p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.redes {
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes img {
+    padding: 0px 7px;
+}
+
+.barra-final nav ul {
+    padding-left: 20x;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.barra-final nav ul li {
+
+    padding: 20px 0px 20px 70px;
+    display: inline-block;
+}
+
+.barra-final nav ul li a {
+    color: #A3A656;
+    text-decoration: none;
+}
+
+.barra-final nav ul li a:hover {
+    color: #FFFF00;
+}
