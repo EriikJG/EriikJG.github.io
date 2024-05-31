@@ -200,7 +200,7 @@ body {
     margin: 0 67px 0 67px;
     background: #FFFFFF;
     border-radius: 15px 15px 0px 0px;
-    width: 350px;
+    width: auto;
 }
 
 .h1-card {
