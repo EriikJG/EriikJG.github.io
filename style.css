@@ -333,7 +333,7 @@ body {
 .card-suscripcion ul li {
     padding-bottom: 5px;
     font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     text-align: left;
     color: #0a0a0a;
