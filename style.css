@@ -333,7 +333,7 @@ body {
 .card-suscripcion ul li {
     padding-bottom: 5px;
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 14px;
     text-align: left;
     color: #0a0a0a;
@@ -407,7 +407,7 @@ body {
 .barra-final nav ul {
     padding-left: 20x;
     font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     margin: 0%;
     padding: 0%;
